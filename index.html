@@ -1,0 +1,70 @@
+<!DOCUMENT html>
+<html>
+<head>
+<style>
+body {
+	margin: 0px;
+	padding: 0px;
+}
+video {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  height: 800px;
+}
+p.mov {
+  font-family: serif;         
+  color: #fff;
+  font-size: 200%;
+  margin: 50px;
+  position: relative;
+  z-index: 2;
+}
+p.coo{
+  font-family: serif; 
+  color: #fff;
+  font-size: 100%;
+  margin: 20px;
+  position: relative;
+  z-index: 2;
+  text-align: right;
+  
+}
+</style>
+<title></title>
+<meta name="viewport" content="width=device-width">
+</head>
+<body width="100%">
+<div class="menu">
+<ul>
+</ul>
+</div>
+
+<div class="photo" style="padding:10px; background-color:rgba(44, 62, 80,0.5); position: relative; z-index: 2;">
+<p class="coo">メニュー　　お問い合わせ　　プロジェクト概要　ビジョン</p>
+<p class="mov">PIPS JAPAN Hometown Project</p>
+</div>
+
+<div class="poo" style="padding:10px; height: 10%; background-color:rgba(44, 62, 80,0); position: relative; z-index: 2; "></div>
+
+<div class="pooh" style="padding:30px; background-color:rgba(44, 62, 80,0.5); position: relative; z-index: 2;  margin: 100px;">
+<center><p class="mov" >詳しく見る</p></center>
+</div>
+<div class="vision" style="height: 100%; background-color:green; position:relative; z-index: 2;">
+<h2 style="color:white;">Our Vision</h2>
+<p>
+指定方法には、実数値にpxなどの単位をつけて指定する方法と、親ボックスに対する割合を％で指定する方法と、 状況に応じて大きさが設定されるautoを指定する方法があります。heightプロパティに負の値は指定できません。
+■値
+auto
+状況に応じて自動設定します。これが初期値です。
+数値で指定
+数値にpxなどの単位をつけて指定します。pxとは1ピクセルを1とする単位で、実際に表示されるサイズは72dpiや96dpiといったモニタの解像度により変化します。
+％で指定
+％値で指定します。
+</p>
+</div>
+
+<video src="life.mp4" autoplay loop>
+</body>
+</html>
